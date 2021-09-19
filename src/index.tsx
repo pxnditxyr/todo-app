@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { Todo } from './todo/Todo';
+
 import './index.css';
 
 ReactDOM.render(
-    <h1> Hola Mi Meloshitaaaaa Amada </h1>,
+    <Todo />,
     document.querySelector( "#root" ),
 );
