@@ -1,17 +1,19 @@
+import { TodoAdd } from './components/TodoAdd';
 import { TodoProvider } from './context/TodoProvider';
+import { TodoList } from './components/TodoList';
+import { TodoTitle } from './components/TodoTitle';
+
+import './todo.css';
 
 export const Todo = () => {
     
     return (
         <TodoProvider>
-            <h1> Todo:  </h1>
-            <ul>
-                <li> Todo 1 </li>
-                <li> Todo 2 </li>
-                <li> Todo 3 </li>
-                <li> Todo 4 </li>
-                <li> Todo 5 </li>
-            </ul>
+            <div className="container">
+                <TodoTitle />
+                <TodoAdd />
+                <TodoList />
+            </div>
         </TodoProvider>
     );
 }

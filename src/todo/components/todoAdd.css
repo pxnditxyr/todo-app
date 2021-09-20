@@ -1,0 +1,20 @@
+.todo-add-form {
+    /* background-color: #fff; */
+    padding: 20px;
+}
+
+.todo-add-form label {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-right: 15px;
+}
+
+.todo-add-form input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid #22577A;
+    max-width: 250px;
+    color: #222831;
+    font-size: 1.2em;
+    font-weight: bold;
+}

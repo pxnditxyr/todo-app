@@ -1,0 +1,20 @@
+.todo-item {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr );
+    margin: 10px 0;
+    cursor: pointer;
+    color: #222831;
+    font-size: 1.7em;
+    font-weight: bold;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.todo-item .description-item {
+    grid-column: 1 / 4;
+}
+
+.todo-item .change-items {
+    grid-column: 5;
+    justify-self: right;
+}

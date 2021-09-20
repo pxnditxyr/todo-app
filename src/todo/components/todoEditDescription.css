@@ -1,0 +1,9 @@
+.todo-edit-input {
+    border: 3px solid #FD6F96;
+    border-radius: 20px;
+    padding: 2px 10px;
+    background: none;
+    font-size: 1em;
+    font-weight: bold;
+    max-width: 250px;
+}

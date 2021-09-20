@@ -1,0 +1,18 @@
+.todo-title {
+    font-weight: bold;
+    margin: 30px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.todo-title h1 {
+    font-size: 4rem;
+}
+
+.todo-title h3 {
+    font-size: 2rem;
+}
+
+.todo-title span {
+    /* font-size: 1em; */
+}
