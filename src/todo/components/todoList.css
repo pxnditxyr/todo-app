@@ -4,7 +4,7 @@ ul {
     margin: 20px 15px;
     padding: 30px;
     border-radius: 30px;
-    min-width: 400px;
+    max-width: 700px;
     line-height: 50px;
 }
 
