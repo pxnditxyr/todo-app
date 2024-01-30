@@ -2,7 +2,7 @@
 ### _Basic Todo App_
 ### _Only Frontend App_
 
-[![React](https://en.m.wikipedia.org/wiki/File:React-icon.svg)](https://es.reactjs.org/)
+[![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)](https://es.reactjs.org/)
 
 This is only done in html and css, only the Frontend, and only the mobile view is taken into account, the desktop view is not taken into account.
 ## Tech
